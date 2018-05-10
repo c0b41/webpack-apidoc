@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+yarn_error.log
+dist
+example/doc
+example/dist
+example/node_modules
+example/npm-debug.log
+example/yarn_error.log

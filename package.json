@@ -1,0 +1,37 @@
+{
+  "name": "webpack-apidoc",
+  "version": "0.1.0",
+  "description": "apidoc webpack plugin",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel ./src --out-dir ./dist",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0b41/webpack-apidoc.git"
+  },
+  "keywords": [
+    "apidoc",
+    "webpack",
+    "plugin"
+  ],
+  "author": "c0b41",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c0b41/webpack-apidoc/issues"
+  },
+  "homepage": "https://github.com/c0b41/webpack-apidoc#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "ansi-colors": "^1.1.0",
+    "apidoc": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-plugin-transform-runtime": "^6.23.0"
+  }
+}
