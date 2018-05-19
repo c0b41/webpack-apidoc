@@ -1,6 +1,6 @@
 {
   "name": "webpack-apidoc",
-  "version": "0.1.0-beta.0",
+  "version": "0.1.1",
   "description": "apidoc webpack plugin",
   "main": "./dist/index.js",
   "scripts": {
@@ -17,6 +17,9 @@
     "webpack",
     "plugin"
   ],
+  "engines": {
+		"node": ">=6"
+	},
   "author": "c0b41",
   "license": "MIT",
   "bugs": {
